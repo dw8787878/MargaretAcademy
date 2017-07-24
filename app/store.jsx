@@ -32,6 +32,12 @@ export function getCampuses () {
   }
 }
 
-const store = createStore(campusReducer, applyMiddleware(thunkMiddleware, createLogger()));
+const store = createStore(
+  campusReducer,
+  composeWithDevTools(applyMiddleware(
+    thunkMiddleware,
+    createLogger()
+    ))
+);
 
 export default store;

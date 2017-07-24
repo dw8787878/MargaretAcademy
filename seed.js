@@ -9,6 +9,9 @@ const Campus = require('./db/models').Campus;
 var data = {
   campus: [
     {name: "Red Campus", urlImage: "http://www.seeing-stars.com/Locations/StarTrek2/CrystalCathedral1.jpg"},
+    {name: "Yellow Campus", urlImage: "http://www.seeing-stars.com/Locations/StarTrek2/CrystalCathedral1.jpg"},
+    {name: "Blue Campus", urlImage: "http://www.seeing-stars.com/Locations/StarTrek2/CrystalCathedral1.jpg"},
+    {name: "White Campus", urlImage: "http://www.seeing-stars.com/Locations/StarTrek2/CrystalCathedral1.jpg"}
   ],
   student: [
     {name: "Bob Smith", email: "bob.smith@gmail.com"}
